@@ -1,0 +1,143 @@
+.introduction {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: $color-primary;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  // overflow-y: hidden;
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    z-index: 3;
+
+    @media only screen and (max-width: 685px) {
+      width: 90%;
+    }
+  }
+
+  &__textIn--top {
+    animation: floatinTop 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.1s;
+  }
+
+  &__textIn--left {
+    animation: floatinLeft 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.2s;
+  }
+
+  &__textIn--bottom {
+    animation: floatinBottom 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.3s;
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+      -webkit-animation: pulsate 3s infinite ease-out;
+      animation: pulsate 3s infinite ease-out;
+      opacity: 0.5;
+
+      &:hover {
+        color: lighten($color-grey-dark, 70%);
+        border-bottom: 1px solid lighten($color-grey-dark, 70%);
+      }
+    }
+  }
+
+  &__portfolio {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    width: 30%;
+    height: 10%;
+    transform: translate(-50%, -1%);
+    @include flex;
+    justify-content: center;
+    z-index: 3;
+    cursor: pointer;
+    color: $color-secondary;
+
+    &:hover > &-text {
+      opacity: 1;
+      transition: all 0.4s ease-in 0.5s;
+      transform: translateY(-2rem);
+    }
+
+    &:hover > &-arrow {
+      transition: all 0.1s ease-out;
+      transform: translateY(-1rem);
+    }
+
+    &-text {
+      opacity: 0;
+    }
+
+    &-arrow {
+      font-size: 2rem;
+      margin: 1rem;
+      animation: floatinBottom 0.8s cubic-bezier(0.12, 0, 0.39, 0) 0.3;
+    }
+  }
+
+  &__portfolio-link {
+    text-decoration: none;
+  }
+
+  &__socialicons {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: 3;
+
+    @media only screen and (max-width: 685px) {
+      top: 15%;
+    }
+
+    span {
+      font-size: 3rem;
+      display: block;
+      line-height: 0;
+      padding: 1rem;
+      border: 1px solid transparent;
+      border-radius: 1px;
+      width: 100%;
+
+      @media only screen and (max-width: 685px) {
+        display: inline;
+      }
+
+      &:hover {
+        width: calc(100% + 2rem);
+        transition: all 0.5s ease-out;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .twitter {
+      background: #1da1f2;
+      animation: floatinLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .linkedin {
+      background: #0072b1;
+      animation: floatinLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
+    }
+
+    .github {
+      background: $color-grey-dark-3;
+      animation: floatinLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
+    }
+  }
+
+  .portfolio__link {
+    text-decoration: none;
+  }
+}

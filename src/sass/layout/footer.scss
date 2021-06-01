@@ -1,0 +1,50 @@
+.footer {
+  background: #252525;
+  padding-top: 2rem;
+
+  &__content--1,
+  &__content--2 {
+    margin: 0 auto;
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: lighten($color-grey-dark-2, 20%);
+
+      &:hover {
+        color: lighten($color-grey-dark-2, 50%);
+      }
+    }
+  }
+
+  &__content--1 {
+    width: 70%;
+    span {
+      display: block;
+
+      @media only screen and (max-width: 245px) {
+        font-size: 6vw;
+      }
+    }
+  }
+
+  &__content--2 {
+    margin-top: 5rem;
+    width: 100%;
+    // background: rgba($color-black, .4);
+
+    span {
+      padding-right: 2rem;
+    }
+
+    &-name {
+      letter-spacing: 0.1rem;
+    }
+
+    &-arrowup {
+      font-size: 3rem;
+    }
+  }
+}

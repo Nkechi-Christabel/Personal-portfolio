@@ -1,0 +1,126 @@
+.contact {
+  @include flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: $color-primary;
+  font-family: "Roboto", sans-serif;
+
+  &__container {
+    width: 95%;
+    padding: 10rem 0 0 0;
+
+    @media only screen and (min-width: 1050px) {
+      width: 60%;
+      padding: 20rem 0 0 0;
+    }
+  }
+
+  h2 {
+    font-weight: 900;
+    color: #e5e4e2;
+  }
+
+  &__text {
+    font-size: 2rem;
+    // padding: 1rem;
+  }
+
+  &__form {
+    margin-top: 4rem;
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      margin: 0.4rem 0;
+    }
+    input[type="submit"] {
+      padding: 1rem 3.2rem;
+      margin-top: 0.6rem;
+      border-radius: 0.4rem;
+      outline: none;
+      float: right;
+      font-weight: bold;
+
+      &:hover {
+        background: $color-grey-dark;
+        color: $color-white;
+      }
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 1.2rem;
+      width: 100%;
+      outline: none;
+      border: none;
+      background: #252525;
+      color: $color-secondary;
+    }
+  }
+
+  form {
+    width: 70%;
+
+    @media only screen and (max-width: 1000px) {
+      width: 95%;
+    }
+  }
+
+  &__social-links {
+    margin-top: 8rem;
+    font-size: 1.5rem;
+
+    &-heading {
+      padding: 2rem 0;
+      font-size: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: $color-white;
+      text-transform: uppercase;
+      padding: 1rem;
+    }
+
+    .fab {
+      padding-right: 0.8rem;
+    }
+
+    span {
+      display: inline-block;
+      border: 1px solid transparent;
+      border-radius: 0.2rem;
+      padding: 0.9rem;
+      margin: 1rem 1rem 1.5rem 0;
+      box-shadow: 0 8px 6px -6px rgba($color-black, 0.4),
+        0 8px 6px -6px rgba($color-black, 0.4),
+        0 8px 6px -6px rgba($color-black, 0.4),
+        0 8px 6px -6px rgba($color-black, 0.4);
+      animation: floatinBottom2 0.6s cubic-bezier(0.12, 0, 0.39, 0);
+
+      &:hover {
+        transform: skew(1deg, 1deg);
+      }
+    }
+
+    .twitter {
+      background: #1da1f2;
+      /* The top layer shadow */
+      // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+      //   /* The second layer */ 0 10px 0 -5px #1da1f2,
+      //   /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+      //   /* The third layer */ 0 20px 0 -10px #1da1f2,
+      //   /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    }
+
+    .linkedin {
+      background: #0072b1;
+    }
+
+    .github {
+      background: $color-grey-dark-3;
+    }
+  }
+}
