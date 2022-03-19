@@ -13,7 +13,7 @@ function About() {
               Hello, my name is Nkechi Udenkwor.
             </h2>
             <p className="introduction__textIn--left">
-              Junior front-end web developer.
+              A creative, growth-minded Front-end web developer.
             </p>
             <p className="introduction__textIn--bottom">
               View my projects on the web <Link to="/portfolio">portfolio</Link>

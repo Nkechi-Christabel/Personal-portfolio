@@ -1,13 +1,12 @@
 .footer {
-  background: #252525;
-  padding-top: 2rem;
+  background: #444444;
+  padding: 4rem;
+  text-align: center;
+  // @include flex;
 
   &__content--1,
   &__content--2 {
-    margin: 0 auto;
-    width: 40%;
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.6rem;
 
     a {
       text-decoration: none;
@@ -20,7 +19,7 @@
   }
 
   &__content--1 {
-    width: 70%;
+    // width: 70%;
     span {
       display: block;
 
@@ -32,8 +31,6 @@
 
   &__content--2 {
     margin-top: 5rem;
-    width: 100%;
-    // background: rgba($color-black, .4);
 
     span {
       padding-right: 2rem;

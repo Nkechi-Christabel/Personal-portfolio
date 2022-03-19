@@ -1,9 +1,23 @@
 .introduction {
-  position: fixed;
-  width: 100vw;
+  position: relative;
   height: 100vh;
   background: $color-primary;
-  font-size: 1.8rem;
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #322d2f,
+  //   #383336,
+  //   #3d393e,
+  //   #424046,
+  //   #46474d,
+  //   #44474c,
+  //   #42464b,
+  //   #41464a,
+  //   #3a3f42,
+  //   #343839,
+  //   #2e3131,
+  //   #282a2a
+  // );
+  font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   // overflow-y: hidden;
 
@@ -23,15 +37,21 @@
   }
 
   &__textIn--top {
-    animation: floatinTop 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.1s;
+    animation: floatinTop2 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.1s;
+
+    // @include typingText;
   }
 
   &__textIn--left {
     animation: floatinLeft 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.2s;
+
+    // @include typingText;
   }
 
   &__textIn--bottom {
     animation: floatinBottom 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.3s;
+
+    // @include typingText;
 
     a {
       color: $color-white;
@@ -101,17 +121,18 @@
       font-size: 3rem;
       display: block;
       line-height: 0;
-      padding: 1rem;
+      padding: 1.3rem;
       border: 1px solid transparent;
       border-radius: 1px;
       width: 100%;
+      cursor: pointer;
 
       @media only screen and (max-width: 685px) {
         display: inline;
       }
 
       &:hover {
-        width: calc(100% + 2rem);
+        width: calc(100% + 3rem);
         transition: all 0.5s ease-out;
       }
 
@@ -132,7 +153,7 @@
     }
 
     .github {
-      background: $color-grey-dark-3;
+      background: #4e545a;
       animation: floatinLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
     }
   }
@@ -141,3 +162,4 @@
     text-decoration: none;
   }
 }
+

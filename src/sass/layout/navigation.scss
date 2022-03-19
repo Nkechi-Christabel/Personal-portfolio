@@ -7,7 +7,7 @@
 
   &__button {
     position: fixed;
-    top: 6rem;
+    top: 4rem;
     right: 6rem;
     border-radius: 50%;
     z-index: 2000;
@@ -36,7 +36,22 @@
     opacity: 0;
     width: 0;
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background-image: radial-gradient($color-grey-dark-3, $color-primary-dark);
+    // background-image: radial-gradient($color-grey-dark-3, $color-primary-dark);
+    background-image: linear-gradient(
+      to right top,
+      #322d2f,
+      #383336,
+      #3d393e,
+      #424046,
+      #46474d,
+      #44474c,
+      #42464b,
+      #41464a,
+      #3a3f42,
+      #343839,
+      #2e3131,
+      #282a2a
+    );
   }
 
   &__list {
