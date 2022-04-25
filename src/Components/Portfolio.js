@@ -197,8 +197,8 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   <figure className="project__item">
-                    <h5>Portfolio web site</h5>
-                    <img src={portfolio} alt="portfolio web page" />
+                    <h5>Portfolio</h5>
+                    <img src={portfolio} alt="portfolio web site" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
                         <li className="project__text-html">Html</li>
