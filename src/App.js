@@ -19,9 +19,9 @@ function App() {
         <Switch>
           <Route path="/Navigation" exact component={Navigation} />
           <Route path="/" exact component={About} />
-          <Redirect from="/About" to="/" />
-          <Route path="/Contact" exact component={Contact} />
-          <Route path="/Portfolio" exact component={Portfolio} />
+          <Redirect from="/about" to="/" />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/portfolio" exact component={Portfolio} />
         </Switch>
       </Router>
     </div>

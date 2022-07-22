@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navigation() {
   return (
     <header>
-      <div class="navigation">
+      <div className="navigation">
         <input
           type="checkbox"
           className="navigation__checkbox"
@@ -23,12 +23,12 @@ function Navigation() {
               </Link>
             </li>
             <li className="navigation__item">
-              <Link to="/Portfolio" className="navigation__link">
+              <Link to="/portfolio" className="navigation__link">
                 Portfolio
               </Link>
             </li>
             <li className="navigation__item">
-              <Link to="/Contact" className="navigation__link">
+              <Link to="/contact" className="navigation__link">
                 Contact
               </Link>
             </li>

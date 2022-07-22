@@ -30,18 +30,23 @@
   }
 
   &__content--2 {
-    margin-top: 5rem;
+    margin-top: 4rem;
 
-    span {
+    span:not(:last-child) {
       padding-right: 2rem;
     }
 
     &-name {
-      letter-spacing: 0.1rem;
+      display: none;
+      letter-spacing: 2px;
+      @media only screen and (max-width: 1000px) {
+        display: inline-block;
+      }
     }
 
     &-arrowup {
       font-size: 3rem;
+      vertical-align: middle;
     }
   }
 }

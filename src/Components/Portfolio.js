@@ -16,7 +16,7 @@ import Rodufy from "../images/rodufy.jpg";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="">
       <Navigation />
       <main>
         <section className="portfolio" id="portfolio-section">
@@ -33,11 +33,12 @@ function Portfolio() {
                 <li className="portfolio__skills-item">CSS3</li>
                 <li className="portfolio__skills-item">Bootstrap</li>
                 <li className="portfolio__skills-item">Tailwind</li>
-                <li className="portfolio__skills-item">Javascript</li>
                 <li className="portfolio__skills-item">Sass</li>
-                <li className="portfolio__skills-item">Git</li>
+                <li className="portfolio__skills-item">Javascript</li>
+                <li className="portfolio__skills-item">Typescript</li>
                 <li className="portfolio__skills-item">React</li>
                 <li className="portfolio__skills-item">Redux</li>
+                <li className="portfolio__skills-item">Git</li>
               </ul>
             </div>
             <div className="project">
@@ -291,6 +292,24 @@ function Portfolio() {
               </a>
             </div> */}
             </div>
+          </div>
+          <div>
+            <Link to="/Contact">
+              <div className="portfolio__link right">
+                <span className="portfolio__link-text text-right">Contact</span>
+                <span>
+                  <i className="fa-solid fa-chevron-right"></i>
+                </span>
+              </div>
+            </Link>
+            <Link to="/">
+              <div className="portfolio__link left">
+                <span>
+                  <i className="fa-solid fa-chevron-left"></i>
+                </span>
+                <span className="portfolio__link-text text-left">About</span>
+              </div>
+            </Link>
           </div>
         </section>
       </main>

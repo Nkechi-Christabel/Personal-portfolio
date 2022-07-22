@@ -31,13 +31,15 @@
     letter-spacing: 0.1rem;
     z-index: 3;
 
-    @media only screen and (max-width: 685px) {
+    @media only screen and (max-width: 768px) {
       width: 90%;
     }
   }
 
   &__textIn--top {
+    font-size: 3rem;
     animation: floatinTop2 0.9s cubic-bezier(0.12, 0, 0.39, 0) 0.1s;
+    color: $color-secondary;
 
     // @include typingText;
   }
@@ -54,7 +56,7 @@
     // @include typingText;
 
     a {
-      color: $color-white;
+      color: pink;
       text-decoration: none;
       -webkit-animation: pulsate 3s infinite ease-out;
       animation: pulsate 3s infinite ease-out;
@@ -72,10 +74,10 @@
     bottom: 1%;
     left: 50%;
     width: 30%;
-    height: 10%;
+
     transform: translate(-50%, -1%);
     @include flex;
-    justify-content: center;
+
     z-index: 3;
     cursor: pointer;
     color: $color-secondary;
@@ -113,7 +115,7 @@
     transform: translate(0, -50%);
     z-index: 3;
 
-    @media only screen and (max-width: 685px) {
+    @media only screen and (max-width: 768px) {
       top: 15%;
     }
 
@@ -121,19 +123,19 @@
       font-size: 3rem;
       display: block;
       line-height: 0;
-      padding: 1.3rem;
+      padding: 1.2rem;
       border: 1px solid transparent;
       border-radius: 1px;
       width: 100%;
       cursor: pointer;
 
-      @media only screen and (max-width: 685px) {
+      @media only screen and (max-width: 768px) {
         display: inline;
       }
 
       &:hover {
         width: calc(100% + 3rem);
-        transition: all 0.5s ease-out;
+        transition: all 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
       }
 
       a {
@@ -162,4 +164,3 @@
     text-decoration: none;
   }
 }
-

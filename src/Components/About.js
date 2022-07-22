@@ -9,11 +9,13 @@ function About() {
       <main>
         <section className="introduction">
           <div className="introduction__text-box">
-            <h2 className="introduction__textIn--top">
+            <h1 className="introduction__textIn--top">
               Hello, my name is Nkechi Udenkwor.
-            </h2>
+            </h1>
             <p className="introduction__textIn--left">
-              A creative, growth-minded Front-end web developer.
+              A creative, growth-minded Front-end web developer. Passionate
+              about building responsive, interactive, innovative, accessible,
+              SEO-friendly, and fast websites.
             </p>
             <p className="introduction__textIn--bottom">
               View my projects on the web <Link to="/portfolio">portfolio</Link>

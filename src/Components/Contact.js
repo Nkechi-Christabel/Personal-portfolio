@@ -6,9 +6,9 @@ function Contact() {
     <div>
       <Navigation />
       <main>
-        <section class="contact">
-          <div class="contact__container">
-            <div class="contact__text">
+        <section className="contact">
+          <div className="contact__container">
+            <div className="contact__text">
               <h2>Get in Touch</h2>
               <p>
                 Have a question, want to collaborate or you want to say Hi?{" "}
@@ -18,7 +18,7 @@ function Contact() {
               </p>
             </div>
 
-            <div class="contact__form">
+            <div className="contact__form">
               <form
                 action="https://getform.io/f/5e385d48-961a-4649-9c87-64da212a6a58"
                 method="POST"
@@ -52,36 +52,36 @@ function Contact() {
               </form>
             </div>
 
-            <div class="contact__social-links">
-              <h4 class="contact__social-links-heading">Let's link up!</h4>
-              <span class="twitter">
+            <div className="contact__social-links">
+              <h4 className="contact__social-links-heading">Let's link up!</h4>
+              <span className="twitter">
                 <a
                   href="https://twitter.com/home"
                   target="_blank"
                   rel="noreferrer"
-                  class="twitter__link"
+                  className="twitter__link"
                 >
-                  <i class="fab fa-twitter"></i> Twitter
+                  <i className="fab fa-twitter"></i> Twitter
                 </a>
               </span>
-              <span class="github">
+              <span className="github">
                 <a
                   href="https://github.com/Nkechi-Christabel"
                   target="_blank"
                   rel="noreferrer"
-                  class="github__link"
+                  className="github__link"
                 >
-                  <i class="fab fa-github"></i>Github
+                  <i className="fab fa-github"></i>Github
                 </a>
               </span>
-              <span class="linkedin">
+              <span className="linkedin">
                 <a
                   href="https://www.linkedin.com/in/nkechi-udenkwor-06b622198/"
                   target="_blank"
                   rel="noreferrer"
-                  class="linkedin__link"
+                  className="linkedin__link"
                 >
-                  <i class="fab fa-linkedin-in"></i>Linkedin
+                  <i className="fab fa-linkedin-in"></i>Linkedin
                 </a>
               </span>
             </div>
