@@ -16,7 +16,7 @@ import Rodufy from "../images/rodufy.jpg";
 
 function Portfolio() {
   return (
-    <div className="">
+    <div>
       <Navigation />
       <main>
         <section className="portfolio" id="portfolio-section">
@@ -39,6 +39,9 @@ function Portfolio() {
                 <li className="portfolio__skills-item">React</li>
                 <li className="portfolio__skills-item">Redux</li>
                 <li className="portfolio__skills-item">Git</li>
+                <li className="portfolio__skills-item">NodeJs</li>
+                <li className="portfolio__skills-item">MongoDb</li>
+                <li className="portfolio__skills-item">Express</li>
               </ul>
             </div>
             <div className="project">

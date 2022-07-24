@@ -13,12 +13,16 @@ function About() {
               Hello, my name is Nkechi Udenkwor.
             </h1>
             <p className="introduction__textIn--left">
-              A creative, growth-minded Front-end web developer. Passionate
-              about building responsive, interactive, innovative, accessible,
-              SEO-friendly, and fast websites.
+              A creative, growth-minded Web Developer. Passionate about building
+              beautiful, responsive, interactive, innovative websites.
+              {/* A creative, growth-minded Front-end web developer. Passionate about
+              building responsive, interactive, innovative, accessible,
+              SEO-friendly, and fast websites. View my projects on the web
+              portfolio page. Article for Scrimba's 24 days of #JavaScriptmas
+              Click Here. */}
             </p>
             <p className="introduction__textIn--bottom">
-              View my projects on the web <Link to="/portfolio">portfolio</Link>
+              View my projects on the <Link to="/portfolio">portfolio</Link>
               &nbsp;page. Article for Scrimba's 24 days of #JavaScriptmas
               <a
                 href="https://nkechi.hashnode.dev/scrimbas-24-days-of-javascriptmas"
