@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 // import Breakfast from "../images/breakfast.jpg";
 // import GadaDashboard from "../images/gada-dashboard.png";
 import Gada from "../images/gada-drone-academy.png";
 // import Growtify from "../images/growtify.jpg";
-// import Hng from "../images/hng.jpg";
+import Proma from "../images/proma.png";
 import Salon from "../images/Hair Salon.png";
 import Cuisine from "../images/cuisine.png";
 import ProfileApp from "../images/profileApp.jpg";
@@ -41,10 +42,41 @@ function Portfolio() {
                 <li className="portfolio__skills-item">Git</li>
                 <li className="portfolio__skills-item">NodeJs</li>
                 <li className="portfolio__skills-item">MongoDb</li>
+                <li className="portfolio__skills-item">Mongoose</li>
                 <li className="portfolio__skills-item">Express</li>
               </ul>
             </div>
             <div className="project">
+              <div className="project__items">
+                <a
+                  href="https://proma.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <figure className="project__item">
+                    <h5>Proma</h5>
+                    <img src={Proma} alt="Rodufy website" />
+                    <figcaption className="project__text">
+                      <ul className="project__text-lists">
+                        <li className="project__text-html">Html</li>
+                        <li className="project__text-css">Css3</li>
+                        <li className="project__text-bootstrap">Tailwind</li>
+                        {/* <li className="project__text-javascript">Javascript</li> */}
+                        <li className="project__text-sass">Typescipt</li>
+                        <li className="project__text-sass">React</li>
+                        <li className="project__text-sass">Redux</li>
+                        <li className="project__text-sass">Node Js</li>
+                        <li className="project__text-sass">Mongoose</li>
+                        <li className="project__text-sass">Express</li>
+                      </ul>
+
+                      <span className="project__text-lists-viewmore">
+                        Live site
+                      </span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
               <div className="project__items">
                 <a
                   href="https://rodufy-web.netlify.app/"
@@ -52,7 +84,7 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   <figure className="project__item">
-                    <h5>Rodufy Website</h5>
+                    <h5>Rodufy</h5>
                     <img src={Rodufy} alt="Rodufy website" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
@@ -296,21 +328,19 @@ function Portfolio() {
             </div> */}
             </div>
           </div>
+        </section>
+        <section className="angleBracket__section">
           <div>
             <Link to="/Contact">
-              <div className="portfolio__link right">
-                <span className="portfolio__link-text text-right">Contact</span>
-                <span>
-                  <i className="fa-solid fa-chevron-right"></i>
-                </span>
+              <div className="angle__link right">
+                <span className="angle__link-text text-right">Contact</span>
+                <AiOutlineRight className="angle__bracket" />
               </div>
             </Link>
             <Link to="/">
-              <div className="portfolio__link left">
-                <span>
-                  <i className="fa-solid fa-chevron-left"></i>
-                </span>
-                <span className="portfolio__link-text text-left">About</span>
+              <div className="angle__link left">
+                <AiOutlineLeft className="angle__bracket" />
+                <span className="angle__link-text text-left">About</span>
               </div>
             </Link>
           </div>
