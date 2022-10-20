@@ -54,7 +54,7 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   <figure className="project__item">
-                    <h5>Proma</h5>
+                    <h5>Proma App</h5>
                     <img src={Proma} alt="Rodufy website" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
@@ -84,7 +84,7 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   <figure className="project__item">
-                    <h5>Rodufy</h5>
+                    <h5>Rodufy App</h5>
                     <img src={Rodufy} alt="Rodufy website" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
