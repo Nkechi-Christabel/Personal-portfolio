@@ -65,7 +65,7 @@ function Portfolio() {
                         </li>
                         <li className="project__text-javascript">Javascript</li>
                         <li className="project__text-sass">React</li>
-                        <li className="project__text-sass">Typescipt</li>
+                        <li className="project__text-sass">Typescript</li>
 
                         <li className="project__text-sass">Redux</li>
                         <li className="project__text-sass">GraphQl</li>
@@ -93,7 +93,7 @@ function Portfolio() {
                         <li className="project__text-css">Css3</li>
                         <li className="project__text-bootstrap">Tailwind</li>
                         {/* <li className="project__text-javascript">Javascript</li> */}
-                        <li className="project__text-sass">Typescipt</li>
+                        <li className="project__text-sass">Typescript</li>
                         <li className="project__text-sass">React</li>
                         <li className="project__text-sass">Redux</li>
                         <li className="project__text-sass">Node Js</li>
