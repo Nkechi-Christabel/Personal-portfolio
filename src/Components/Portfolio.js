@@ -5,7 +5,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 // import Breakfast from "../images/breakfast.jpg";
 // import GadaDashboard from "../images/gada-dashboard.png";
 import Gada from "../images/gada-drone-academy.png";
-// import Growtify from "../images/growtify.jpg";
+import Techlo from "../images/Techlo.png";
 import Proma from "../images/proma.png";
 import Salon from "../images/Hair Salon.png";
 import Cuisine from "../images/cuisine.png";
@@ -55,7 +55,7 @@ function Portfolio() {
                 >
                   <figure className="project__item">
                     <h5>Techlo</h5>
-                    <img src={Proma} alt="Rodufy website" />
+                    <img src={Techlo} alt="Rodufy website" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
                         <li className="project__text-html">Html</li>
