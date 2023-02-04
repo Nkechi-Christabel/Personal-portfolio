@@ -49,12 +49,43 @@ function Portfolio() {
             <div className="project">
               <div className="project__items">
                 <a
+                  href="https://techlo.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <figure className="project__item">
+                    <h5>Techlo</h5>
+                    <img src={Proma} alt="Rodufy website" />
+                    <figcaption className="project__text">
+                      <ul className="project__text-lists">
+                        <li className="project__text-html">Html</li>
+                        <li className="project__text-css">Css3</li>
+                        <li className="project__text-bootstrap">
+                          Styled Component
+                        </li>
+                        <li className="project__text-javascript">Javascript</li>
+                        <li className="project__text-sass">React</li>
+                        <li className="project__text-sass">Typescipt</li>
+
+                        <li className="project__text-sass">Redux</li>
+                        <li className="project__text-sass">GraphQl</li>
+                      </ul>
+
+                      <span className="project__text-lists-viewmore">
+                        Live site
+                      </span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div className="project__items">
+                <a
                   href="https://proma.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <figure className="project__item">
-                    <h5>Proma App</h5>
+                    <h5>Proma</h5>
                     <img src={Proma} alt="Rodufy website" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
