@@ -161,12 +161,12 @@ function Portfolio() {
 
               <div className="project__items">
                 <a
-                  href="https://react-notebook-app.herokuapp.com/"
+                  href="https://doodlenote.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <figure className="project__item">
-                    <h5>Note Book App</h5>
+                    <h5>NoteBook App</h5>
                     <img src={NoteBook} alt="Note Book App" />
                     <figcaption className="project__text">
                       <ul className="project__text-lists">
