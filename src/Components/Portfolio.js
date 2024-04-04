@@ -9,11 +9,12 @@ import Techlo from "../images/Techlo.png";
 import Proma from "../images/proma.png";
 import Salon from "../images/Hair Salon.png";
 import Cuisine from "../images/cuisine.png";
-import ProfileApp from "../images/profileApp.jpg";
+// import ProfileApp from "../images/profileApp.jpg";
 import NoteBook from "../images/NoteBook App.png";
 import portfolio from "../images/Portfolio.png";
 import Music from "../images/music-app.png";
 import Rodufy from "../images/rodufy.jpg";
+import Diy from "../images/Diy.png";
 
 function Portfolio() {
   return (
@@ -33,7 +34,7 @@ function Portfolio() {
                 <li className="portfolio__skills-item">Html5</li>
                 <li className="portfolio__skills-item">CSS3</li>
                 <li className="portfolio__skills-item">Bootstrap</li>
-                <li className="portfolio__skills-item">Tailwind</li>
+                <li className="portfolio__skills-item">Tailwind CSS</li>
                 <li className="portfolio__skills-item">Sass</li>
                 <li className="portfolio__skills-item">Javascript</li>
                 <li className="portfolio__skills-item">Typescript</li>
@@ -44,9 +45,41 @@ function Portfolio() {
                 <li className="portfolio__skills-item">MongoDb</li>
                 <li className="portfolio__skills-item">Mongoose</li>
                 <li className="portfolio__skills-item">Express</li>
+                <li className="portfolio__skills-item">Python</li>
+                <li className="portfolio__skills-item">MySQL</li>
               </ul>
             </div>
             <div className="project">
+              <div className="project__items">
+                <a
+                  href="https://diy-creative-display.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <figure className="project__item">
+                    <h5>DIY Creative Display</h5>
+                    <img src={Diy} alt="Rodufy website" />
+                    <figcaption className="project__text">
+                      <ul className="project__text-lists">
+                        <li className="project__text-html">Html</li>
+                        <li className="project__text-bootstrap">
+                          Tailwind CSS
+                        </li>
+                        <li className="project__text-sass">Next Js</li>
+                        <li className="project__text-sass">Typescript</li>
+                        <li className="project__text-sass">Redux Toolkit</li>
+                        <li className="project__text-sass">Python</li>
+                        <li className="project__text-sass">Flask</li>
+                        <li className="project__text-sass">MySQL</li>
+                      </ul>
+
+                      <span className="project__text-lists-viewmore">
+                        Live site
+                      </span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
               <div className="project__items">
                 <a
                   href="https://techlo.netlify.app/"
@@ -66,7 +99,6 @@ function Portfolio() {
                         <li className="project__text-javascript">Javascript</li>
                         <li className="project__text-sass">React</li>
                         <li className="project__text-sass">Typescript</li>
-
                         <li className="project__text-sass">Redux</li>
                         <li className="project__text-sass">GraphQl</li>
                       </ul>
@@ -91,7 +123,9 @@ function Portfolio() {
                       <ul className="project__text-lists">
                         <li className="project__text-html">Html</li>
                         <li className="project__text-css">Css3</li>
-                        <li className="project__text-bootstrap">Tailwind</li>
+                        <li className="project__text-bootstrap">
+                          Tailwind CSS
+                        </li>
                         {/* <li className="project__text-javascript">Javascript</li> */}
                         <li className="project__text-sass">Typescript</li>
                         <li className="project__text-sass">React</li>
@@ -121,7 +155,9 @@ function Portfolio() {
                       <ul className="project__text-lists">
                         <li className="project__text-html">Html</li>
                         <li className="project__text-css">Css3</li>
-                        <li className="project__text-bootstrap">Tailwind</li>
+                        <li className="project__text-bootstrap">
+                          Tailwind CSS
+                        </li>
                         <li className="project__text-javascript">Javascript</li>
                         <li className="project__text-sass">React</li>
                         <li className="project__text-sass">Redux</li>
@@ -282,7 +318,7 @@ function Portfolio() {
                 </a>
               </div>
 
-              <div className="project__items">
+              {/* <div className="project__items">
                 <a
                   href="https://profile-application.netlify.app/"
                   target="_blank"
@@ -305,7 +341,7 @@ function Portfolio() {
                     </figcaption>
                   </figure>
                 </a>
-              </div>
+              </div> */}
 
               {/* <div className="project__items">
               <a
