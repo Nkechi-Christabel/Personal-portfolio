@@ -13,8 +13,13 @@ function About() {
               Hello, my name is Nkechi Udenkwor.
             </h1>
             <p className="introduction__textIn--left">
-              A creative, growth-minded Web Developer. Passionate about building
-              beautiful, responsive, interactive, innovative websites.
+              A creative and growth-minded Web Developer with a proven track
+              record of designing and developing beautiful, responsive, and
+              interactive websites. Committed to staying updated with the latest
+              trends and technologies in web development to deliver exceptional
+              results.
+              {/* A creative, growth-minded Web Developer. Passionate about building
+              beautiful, responsive, interactive, innovative websites. */}
               {/* A creative, growth-minded Front-end web developer. Passionate about
               building responsive, interactive, innovative, accessible,
               SEO-friendly, and fast websites. View my projects on the web
@@ -22,8 +27,18 @@ function About() {
               Click Here. */}
             </p>
             <p className="introduction__textIn--bottom">
-              View my projects on the <Link to="/portfolio">portfolio</Link>
-              &nbsp;page. Article for Scrimba's 24 days of #JavaScriptmas
+              View my projects in the <Link to="/portfolio">portfolio</Link>
+              &nbsp;page. Want to know what happens under the hood when you make
+              an https request?
+              <a
+                href="https://medium.com/@udenkwornkechi/what-happens-when-you-type-https-www-google-com-in-your-browser-and-press-enter-41c691ff8c9a"
+                target="_blank"
+                rel="noreferrer"
+                className="introduction__text-article"
+              >
+                &nbsp;Click Here.
+              </a>
+              {/* Article for Scrimba's 24 days of #JavaScriptmas
               <a
                 href="https://nkechi.hashnode.dev/scrimbas-24-days-of-javascriptmas"
                 target="_blank"
@@ -31,7 +46,7 @@ function About() {
                 className="introduction__text-article"
               >
                 &nbsp;Click Here.
-              </a>
+              </a> */}
             </p>
           </div>
 
