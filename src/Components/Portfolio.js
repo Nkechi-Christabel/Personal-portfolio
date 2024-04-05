@@ -41,9 +41,9 @@ function Portfolio() {
                 <li className="portfolio__skills-item">React</li>
                 <li className="portfolio__skills-item">Redux</li>
                 <li className="portfolio__skills-item">Git</li>
-                <li className="portfolio__skills-item">NodeJs</li>
+                <li className="portfolio__skills-item">Node JS</li>
                 <li className="portfolio__skills-item">MongoDb</li>
-                <li className="portfolio__skills-item">Mongoose</li>
+                {/* <li className="portfolio__skills-item">Mongoose</li> */}
                 <li className="portfolio__skills-item">Express</li>
                 <li className="portfolio__skills-item">Python</li>
                 <li className="portfolio__skills-item">MySQL</li>
